@@ -70,10 +70,15 @@ Task 2: Human Faces
   - Employed PCA for dimensionality reduction and displayed the reconstructed images to visualize the impact of dimensionality reduction.
 
 ### Neural Network for Classification
-This section contains the implementation of a basic neural network for classification tasks. The neural network is built from scratch using Python and provides a foundation for understanding the inner workings of deep learning models.
+In this section, we implement a foundational neural network from scratch for classification, using Python. We employ the MNIST dataset for digit recognition and structure the network as [64, 30, 10]—featuring input (64 neurons), hidden (30 neurons), and output (10 neurons) layers.
+
+The core functions, forward and backward, are coded from scratch to facilitate input processing, prediction, and backpropagation. We explore the following activation functions: Sigmoid, ReLU, Tanh.
 
 ### Hierarchical Clustering
-Here, you can find the implementation of hierarchical clustering algorithm. Hierarchical clustering is an unsupervised learning technique that builds nested clusters by recursively merging or splitting them based on their distances.
+Here, you can find the implementation of hierarchical clustering algorithm. Hierarchical clustering is an unsupervised learning technique that builds nested clusters by recursively merging or splitting them based on their distances. The methodology leveraged in this repo is as follows:
+  - Dataset Selection: Leveraging the Mall Customer dataset as the foundation for clustering analysis.
+  - Hierarchical Clustering: Implementing a clustering model using the 'Ward' distance matrix. This choice of linkage criterion assists in optimizing cluster variance minimization.
+  - Dendrogram Visualization: Unveiling the hierarchical structure through the construction of a dendrogram. This visual representation enables an intuitive comprehension of the clustering outcomes.
 
 ## Deep Learning Projects
 ### CNN for Image Classification
