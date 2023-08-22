@@ -2,16 +2,16 @@
 This repository contains implementations of various machine learning algorithms and deep learning projects. Some of these algorithms have been built from scratch in Python for better understanding.
 
 ## Table of Contents
-- Algorithms
+- <a href="README.md#algorithms">Algorithms</a>
   - <a href="README.md#regression">Regression</a>
-  - Support Vector Machines
-  - Decision Trees
-  - K-Means and Principle Component Analysis
-  - Neural Network for Classification
-  - Hierarchical Clustering
-- Deep Learning Projects
-  - CNN
-  - GAN  
+  - <a href="README.md#support-vector-machines">Support Vector Machines</a>
+  - <a href="README.md#decision-trees">Decision Trees</a>
+  - <a href="README.md#k-means-and-principal-component-analysis">K-Means and Principle Component Analysis</a>
+  - <a href="README.md#neural-network-for-classification">Neural Network for Classification</a>
+  - <a href="README.md#hierarchical-clustering">Hierarchical Clustering</a>
+- <a href="README.md#deep-learning-projects">Deep Learning Projects</a>
+  - <a href="README.md#cnn-for-image-classification">CNN</a>
+  - <a href="README.md#generative-adversarial-networks-gans">GAN</a>  
 
 ## Algorithms
 ### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/linear-and-logistic-regression/regression.ipynb">Regression</a>
