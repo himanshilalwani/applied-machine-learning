@@ -3,7 +3,7 @@ This repository contains implementations of various machine learning algorithms 
 
 ## Table of Contents
 - Algorithms
-  - <a href="www.github.com/himanshilalwani/applied-machine-learning/tree/main#regression">Regression</a>
+  - <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/linear-and-logistic-regression/regression.ipynb">Regression</a>
   - Support Vector Machines
   - Decision Trees
   - K-Means and Principle Component Analysis
