@@ -45,9 +45,29 @@ To perform accurate classification using Decision Trees with continuous features
   - Early Stopping Strategy: Instead of growing full trees, an early stopping strategy is implemented to prevent overfitting. The minimum number of instances required at a leaf node is controlled by a parameter known as nmin. To accommodate the dataset's size, nmin is defined as a percentage relative to the size of the training dataset.
   - Cross-Validation for Accuracy
 
-### K-means and Principal Component Analysis
+### K-Means and Principal Component Analysis
+
+#### K-Means
 Here, you can find the implementation of the K-means clustering algorithm. K-means is an unsupervised learning algorithm that partitions data into K clusters based on their similarities.
+
+The K-Means algorithm is applied to two distinct datasets to showcase its effectiveness in clustering:
+  - Synthetic Data using make_blobs: Utilizing the make_blobs function from the sklearn library to generate synthetic data. The dataset consists of 300 instances grouped into 4 clusters with a standard deviation of 0.6.
+  - RGB Image Clustering: Demonstrating image compression using K-Means by clustering R, G, and B data of an RGB image into K clusters. Images are displayed before and after clustering to visualize the compression effects.
+
+Additionally, the K-Means++ initialization technique is implemented for both datasets, enhancing the convergence speed and cluster quality. 
+
+#### Principal Component Analysis
 In this section, you will also find the implementation of Principal Component Analysis (PCA). PCA is a dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional space while retaining most of the important information.
+
+Task 1: Users to Movies
+  - Handled <a href="http://web.stanford.edu/class/cs246/slides/06-dim_red.pdf">Users-to-Movies dataset</a> where rows contain user scores and columns contain scores given by different users for the same movie.
+  - Task involves implementing PCA using two approaches:
+    - Singular Value Decomposition (SVD): Calculating features after PCA using SVD.
+    - Eigenvalue Decomposition: Computing eigenvectors (V) and eigenvalues (D) from the covariance matrix.
+
+Task 2: Human Faces
+  - Utilized the <a href="https://scikit-learn.org/stable/datasets/index.html#labeled-faces-in-the-wild-dataset">Labeled Faces in the Wild dataset</a> designed for face recognition.
+  - Employed PCA for dimensionality reduction and displayed the reconstructed images to visualize the impact of dimensionality reduction.
 
 ### Neural Network for Classification
 This section contains the implementation of a basic neural network for classification tasks. The neural network is built from scratch using Python and provides a foundation for understanding the inner workings of deep learning models.
