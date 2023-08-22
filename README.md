@@ -14,7 +14,7 @@ This repository contains implementations of various machine learning algorithms 
   - GAN  
 
 ## Algorithms
-### Regression
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/linear-and-logistic-regression/regression.ipynb">Regression</a>
 In this section, you can find the implementation of regression algorithms.<br><br>
 The following algorithms use the Boston House Prices dataset and are commonly used for predicting continuous values based on input features:
   - Linear Regression
@@ -26,14 +26,14 @@ The following algorithms use the Boston House Prices dataset and are commonly us
 
 The same section also has the implementation of logistic regression using the Breast Cancer Wisconsin dataset. Logistic regression is a widely used algorithm for binary classification tasks.
 
-### Support Vector Machines
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/tree/main/svm-with-sgd">Support Vector Machines</a>
 Here, you will find the implementation of the Support Vector Machines (SVM) algorithm. SVM is a powerful algorithm used for classification and regression tasks. It finds an optimal hyperplane that separates different classes in the feature space.
 <br><br>
 This repo uses the following datasets for training and testing SVMs:
   - Breast Cancer Wisconsin: The Breast Cancer Wisconsin dataset contains diagnostic information about breast cancer tumors. It is commonly used for binary classification tasks.
   - Synthetic Dataset: A synthetic dataset generated using the scikit-learn make_blobs function. This dataset is useful for experimenting and understanding the behavior of the SVM algorithm with separable classes
 
-### Decision Trees
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/decision-trees/decision-tree-iris-and-spambase.ipynb">Decision Trees</a>
 This section contains the implementation of the decision tree algorithm. Decision trees are versatile algorithms that can be used for both classification and regression tasks. They construct a tree-like model of decisions based on features to predict the target variable.
 
 The Decision Tree algorithm is applied to two distinct datasets, each with specific characteristics and objectives.
@@ -45,7 +45,7 @@ To perform accurate classification using Decision Trees with continuous features
   - Early Stopping Strategy: Instead of growing full trees, an early stopping strategy is implemented to prevent overfitting. The minimum number of instances required at a leaf node is controlled by a parameter known as nmin. To accommodate the dataset's size, nmin is defined as a percentage relative to the size of the training dataset.
   - Cross-Validation for Accuracy
 
-### K-Means and Principal Component Analysis
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/tree/main/kmeans-and-pca">K-Means and Principal Component Analysis</a>
 
 #### K-Means
 Here, you can find the implementation of the K-means clustering algorithm. K-means is an unsupervised learning algorithm that partitions data into K clusters based on their similarities.
@@ -69,20 +69,20 @@ Task 2: Human Faces
   - Utilized the <a href="https://scikit-learn.org/stable/datasets/index.html#labeled-faces-in-the-wild-dataset">Labeled Faces in the Wild dataset</a> designed for face recognition.
   - Employed PCA for dimensionality reduction and displayed the reconstructed images to visualize the impact of dimensionality reduction.
 
-### Neural Network for Classification
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/neural-network/nn-for-classification.ipynb">Neural Network for Classification</a>
 In this section, we implement a foundational neural network from scratch for classification, using Python. We employ the MNIST dataset for digit recognition and structure the network as [64, 30, 10]—featuring input (64 neurons), hidden (30 neurons), and output (10 neurons) layers.
 
 The core functions, forward and backward, are coded from scratch to facilitate input processing, prediction, and backpropagation. We explore the following activation functions: Sigmoid, ReLU, Tanh.
 
-### Hierarchical Clustering
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/hierarchical-clustering/hierarchical-clustering.ipynb">Hierarchical Clustering</a>
 Here, you can find the implementation of hierarchical clustering algorithm. Hierarchical clustering is an unsupervised learning technique that builds nested clusters by recursively merging or splitting them based on their distances. The methodology leveraged in this repo is as follows:
   - Dataset Selection: Leveraging the Mall Customer dataset as the foundation for clustering analysis.
   - Hierarchical Clustering: Implementing a clustering model using the 'Ward' distance matrix. This choice of linkage criterion assists in optimizing cluster variance minimization.
   - Dendrogram Visualization: Unveiling the hierarchical structure through the construction of a dendrogram. This visual representation enables an intuitive comprehension of the clustering outcomes.
 
 ## Deep Learning Projects
-### CNN for Image Classification
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/deep-learning-cnn/cnn-for-image-classification.ipynb">CNN for Image Classification</a>
 This section contains a deep learning project that implements a Convolutional Neural Network (CNN) for image classification. CNNs are widely used in computer vision tasks, and this project provides an example of how to build and train a CNN model from scratch using the PyTorch library.
 
-### Generative Adversarial Networks (GANs)
+### <a href="https://github.com/himanshilalwani/applied-machine-learning/blob/main/deep-learning-gan/gan-anime-dataset.ipynb">Generative Adversarial Networks (GANs)</a>
 In this section, you will find the implementation of Generative Adversarial Networks (GANs) using PyTorch. GANs are a class of deep learning models that can generate new samples from a given dataset. This project demonstrates how to build and train a GAN model for generating synthetic images.
