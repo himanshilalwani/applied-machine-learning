@@ -36,6 +36,15 @@ This repo uses the following datasets for training and testing SVMs:
 ### Decision Trees
 This section contains the implementation of the decision tree algorithm. Decision trees are versatile algorithms that can be used for both classification and regression tasks. They construct a tree-like model of decisions based on features to predict the target variable.
 
+The Decision Tree algorithm is applied to two distinct datasets, each with specific characteristics and objectives.
+ - Iris Dataset: The Iris dataset is a well-known benchmark in the field of machine learning. It comprises three distinct classes, each corresponding to a different subtype of the Iris flower. The primary goal of this classification task is to predict the subtype of the Iris flower based on four distinct physical features: sepal length, sepal width, petal length, and petal width.
+ - Spambase Dataset: The Spambase dataset is utilized for a binary classification task centered around distinguishing between spam and non-spam email messages. The dataset leverages seven text-based features to represent each email message.
+
+To perform accurate classification using Decision Trees with continuous features, following key steps are involved:
+  - Binary Splits with Optimal Thresholds: Since both datasets feature continuous features, the Decision Trees are constructed using binary splits. This process involves identifying the optimal threshold values for each feature. Information gain is employed as the measure of node impurity during the split decision.
+  - Early Stopping Strategy: Instead of growing full trees, an early stopping strategy is implemented to prevent overfitting. The minimum number of instances required at a leaf node is controlled by a parameter known as nmin. To accommodate the dataset's size, nmin is defined as a percentage relative to the size of the training dataset.
+  - Cross-Validation for Accuracy
+
 ### K-means and Principal Component Analysis
 Here, you can find the implementation of the K-means clustering algorithm. K-means is an unsupervised learning algorithm that partitions data into K clusters based on their similarities.
 In this section, you will also find the implementation of Principal Component Analysis (PCA). PCA is a dimensionality reduction technique that transforms high-dimensional data into a lower-dimensional space while retaining most of the important information.
