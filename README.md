@@ -3,7 +3,7 @@ This repository contains implementations of various machine learning algorithms 
 
 ## Table of Contents
 - Algorithms
-  - <a href="#regression">Regression</a>
+  - <a href="README.md#regression">Regression</a>
   - Support Vector Machines
   - Decision Trees
   - K-Means and Principle Component Analysis
